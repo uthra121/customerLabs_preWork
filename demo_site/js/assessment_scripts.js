@@ -219,3 +219,12 @@ let track_cart_shop = setInterval(function() {
 }, 1000);
 
 document.querySelector("span.add_to_cart_btn").addEventListener("click", track_cart_shop);
+
+//  5. Convert given data into acceptable format of customer labs API
+
+/*
+
+    I think the given data is in the correct format. We can pass the event and the ecommerce as the parameters for tracking the
+    page. 
+
+*/
